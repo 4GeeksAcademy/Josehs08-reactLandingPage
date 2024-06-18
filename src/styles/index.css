@@ -10,3 +10,43 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+body{
+    background-color: #282A36;
+}
+
+hr{
+    color: #6272A4;
+}
+
+.card{
+    background-color: #44475A;
+    color: #F8F8F2;
+    border: 3px solid #6272A4 !important; /* Usado para sobreescribir estilo de bootstrap, no mostraba borde izquierdo*/
+}
+
+.navbar{
+    background-color: #44475A;
+    color: #F8F8F2;
+}
+
+.footer{
+    color: #F8F8F2;
+}
+
+#hero{
+    background-color: #44475A;
+    color: #F8F8F2;
+}
+
+#hero.title{
+    font-size: large;
+}
+
+button{
+    background-color: #8BE9FD !important;
+}
+
+button:hover{
+    color: #44475A !important;
+}
